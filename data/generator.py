@@ -251,7 +251,7 @@ def parse_args() -> None:
     parser.add_argument(
         '--seed',
         type=int,
-        default=42,
+        default=None,
         help='Random seed for reproducibility (default: None)'
     )
 
